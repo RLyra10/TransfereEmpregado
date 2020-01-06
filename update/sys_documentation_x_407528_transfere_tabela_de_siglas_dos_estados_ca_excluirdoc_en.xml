@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="ca_excluirdoc" label="Excluir Documento?" language="en" table="x_407528_transfere_tabela_de_siglas_dos_estados">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>ca_excluirdoc</element>
+            <help/>
+            <hint/>
+            <label>Excluir Documento?</label>
+            <language>en</language>
+            <name>x_407528_transfere_tabela_de_siglas_dos_estados</name>
+            <plural>Excluir Documento?s</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-12-12 20:58:44</sys_created_on>
+            <sys_id>ff12053fdb61001021d658b3ca96198f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Excluir Documento?</sys_name>
+            <sys_package display_value="Transferencia de Empregados" source="x_407528_transfere">083200b6db21001021d658b3ca9619ae</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Transferencia de Empregados">083200b6db21001021d658b3ca9619ae</sys_scope>
+            <sys_update_name>sys_documentation_x_407528_transfere_tabela_de_siglas_dos_estados_ca_excluirdoc_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-12-12 20:58:44</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name>solicitar_transf</action_name>
+        <active>true</active>
+        <client>true</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
+        <comments/>
+        <condition>current.ca_status == 0</condition>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style>primary</form_style>
+        <hint/>
+        <isolate_script>true</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <name>Solicitar Transferência</name>
+        <onclick>Salvar()</onclick>
+        <order>100</order>
+        <script><![CDATA[function Salvar(){
+	g_form.clearMessages();
+
+	var auxChave = g_form.getValue('ca_frm_transf_chave');
+	if (auxChave == ''){
+		g_form.addErrorMessage('Informe a chave do usuário.');
+		g_form.flash("x_407528_transfere_sistema_de_transfer_ncia_de_empregados.ca_frm_transf_chave", "#FFDADC", -4);
+		return;
+	}
+	
+	var auxChave2 = g_form.getValue('ca_frm_transf_chave_gerexecdestino');
+	if (auxChave2 == ''){
+		g_form.addErrorMessage('Informe a chave do gerente executivo de destino.');
+		g_form.flash("x_407528_transfere_sistema_de_transfer_ncia_de_empregados.ca_frm_transf_chave_gerexecdestino", "#FFDADC", -4);
+		return;
+	}
+	
+	var auxDataT = g_form.getValue('ca_frm_transf_data');
+	if (auxDataT == ''){
+		g_form.addErrorMessage('Informe a data de transferência do empregado.');
+		g_form.flash("x_407528_transfere_sistema_de_transfer_ncia_de_empregados.ca_frm_transf_data", "#FFDADC", -4);
+		return;
+	}
+	
+	BuscaData();
+}
+
+function BuscaData(){
+	var ajax = new GlideAjax('Funcoes_Gerais');
+	ajax.addParam('sysparm_name','getNowDateTime');
+	ajax.getXML(SalvaDados);
+}
+
+
+function SalvaDados(response){
+	var auxData = response.responseXML.documentElement.getAttribute("answer");
+	var auxNome = g_user.firstName + " " + g_user.lastName;
+	var auxLog = "Solicitação criada por " + auxNome + " em " + auxData;
+		
+	g_form.setValue('ca_frm_transf_log', auxLog);
+	g_form.setValue('ca_status', 3);  //Gerente Imediato
+	
+	g_form.submit();
+	g_form.addInfoMessage('Documento enviado para o Gerente Imediato.');
+	
+}]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-09 14:42:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>062dc032db61001021d658b3ca961988</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Solicitar Transferência</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Transferencia de Empregados" source="x_407528_transfere">083200b6db21001021d658b3ca9619ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Transferencia de Empregados">083200b6db21001021d658b3ca9619ae</sys_scope>
+        <sys_update_name>sys_ui_action_062dc032db61001021d658b3ca961988</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-12 19:56:18</sys_updated_on>
+        <table>x_407528_transfere_sistema_de_transfer_ncia_de_empregados</table>
+        <ui11_compatible>false</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>

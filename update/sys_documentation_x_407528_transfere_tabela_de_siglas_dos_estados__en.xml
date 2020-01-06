@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="Tabela de Siglas dos Estados" language="en" table="x_407528_transfere_tabela_de_siglas_dos_estados">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>Tabela de Siglas dos Estados</label>
+            <language>en</language>
+            <name>x_407528_transfere_tabela_de_siglas_dos_estados</name>
+            <plural>Tabela de Siglas dos Estados</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-12-12 18:44:17</sys_created_on>
+            <sys_id>0e53603bdb21001021d658b3ca96193b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Tabela de Siglas dos Estados</sys_name>
+            <sys_package display_value="Transferencia de Empregados" source="x_407528_transfere">083200b6db21001021d658b3ca9619ae</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Transferencia de Empregados">083200b6db21001021d658b3ca9619ae</sys_scope>
+            <sys_update_name>sys_documentation_x_407528_transfere_tabela_de_siglas_dos_estados__en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-12-12 18:44:17</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

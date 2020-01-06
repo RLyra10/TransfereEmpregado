@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Sistema de Transferência de Empregados" max_length="40" name="x_407528_transfere_sistema_de_transfer_ncia_de_empregados" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Cargo" max_length="100" name="ca_frm_transf_cargo" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Centro de Custo" max_length="10" name="ca_frm_transf_ccusto" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Chave" mandatory="true" max_length="4" name="ca_frm_transf_chave" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Chave gerente executivo de destino:" max_length="4" name="ca_frm_transf_chave_gerexecdestino" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Chave gerente executivo de origem:" max_length="4" name="ca_frm_transf_chave_gerexecorigem" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Chave gerente de origem:" max_length="4" name="ca_frm_transf_chave_gerorigem" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Cidade" max_length="100" name="ca_frm_transf_cidade" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Cidade" max_length="100" name="ca_frm_transf_cidade_local" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Data (dd/mm/aaaa):" max_length="40" name="ca_frm_transf_data" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Data Admissão" max_length="10" name="ca_frm_transf_data_admissao" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="não" label="Transferência com Designação" max_length="40" name="ca_frm_transf_designacao" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Sim" sequence="0" value="sim"/>
+                <element inactive_on_update="false" label="Não" sequence="1" value="não"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="não" label="Dispensado" max_length="40" name="ca_frm_transf_dispensado" read_only="true" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Sim" sequence="0" value="sim"/>
+                <element inactive_on_update="false" label="Não" sequence="1" value="não"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Estado" max_length="2" name="ca_frm_transf_estado" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Estado" max_length="2" name="ca_frm_transf_estado_local" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="não" label="Flag Motivos" max_length="40" name="ca_frm_transf_flag_motivos" read_only="true" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Sim" sequence="0" value="sim"/>
+                <element inactive_on_update="false" label="Não" sequence="1" value="não"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Função" max_length="100" name="ca_frm_transf_funcao" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="não" label="Interesse da Companhia?" max_length="40" name="ca_frm_transf_interesse_companhia" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Sim" sequence="0" value="sim"/>
+                <element inactive_on_update="false" label="Não" sequence="1" value="não"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Log" max_length="100000" name="ca_frm_transf_log" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Matrícula" max_length="7" name="ca_frm_transf_matricula" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="não" label="Muda Residência?" max_length="40" name="ca_frm_transf_muda_residencia" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Sim" sequence="0" value="sim"/>
+                <element inactive_on_update="false" label="Não" sequence="1" value="não"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Nome" max_length="200" name="ca_frm_transf_nome" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Nome gerente executivo de destino:" max_length="100" name="ca_frm_transf_nome_gerexecdestino" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Nome gerente executivo de origem:" max_length="100" name="ca_frm_transf_nome_gerexecorigem" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Nome gerente de origem:" max_length="100" name="ca_frm_transf_nome_gerorigem" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Órgão Lotação" max_length="100" name="ca_frm_transf_orgao_origem" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Posição" max_length="40" name="ca_frm_transf_posicao" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Tipo" max_length="40" name="ca_frm_transf_tipo" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Adicional de Transferência" max_length="2000" name="ca_motivo_adicional_transferencia" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Motivo reprovação por gerente imediato de origem:" max_length="2000" name="ca_motivo_reprova_1" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Motivo reprovação por gerente executivo de origem:" max_length="2000" name="ca_motivo_reprova_2" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Motivo reprovação por GPGD:" max_length="2000" name="ca_motivo_reprova_3" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Motivo reprovação por gerente executivo de destino:" max_length="2000" name="ca_motivo_reprova_4" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Motivo reprovação por GRH:" max_length="2000" name="ca_motivo_reprova_5" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Motivo reprovação por Diretor GRH:" max_length="2000" name="ca_motivo_reprova_6" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="0" label="Status" max_length="40" name="ca_status" read_only="true" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Aguardando Análise Gerente Executivo de Destino" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Aguardando Análise Gerente Executivo de Origem" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Aguardando Análise Gerente Imediato de Origem" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Aguardando Análise GGP/GPGD" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="Aguardando Análise GSC/GSCOM" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="Aprovado por Gerente Executivo de Destino" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="Aprovado por GRH/GEAPES" sequence="6" value="7"/>
+                <element inactive_on_update="false" label="Aprovado por GRH/GECOMP" sequence="7" value="8"/>
+                <element inactive_on_update="false" label="Aprovado por GRH/GPDC" sequence="8" value="9"/>
+                <element inactive_on_update="false" label="Aprovado por GSC/GSCOM" sequence="9" value="10"/>
+                <element inactive_on_update="false" label="Reprovado por Gerente Executivo de Destino" sequence="10" value="11"/>
+                <element inactive_on_update="false" label="Reprovado por Gerente Executivo de Origem" sequence="11" value="12"/>
+                <element inactive_on_update="false" label="Reprovado por Gerente Imediato de Origem" sequence="12" value="13"/>
+                <element inactive_on_update="false" label="Reprovado por GGP/GPGD" sequence="13" value="14"/>
+                <element inactive_on_update="false" label="Reprovado por GRH" sequence="14" value="15"/>
+                <element inactive_on_update="false" label="Reprovado por GRH/GPDC" sequence="15" value="16"/>
+                <element inactive_on_update="false" label="Reprovado por GSC/GSCOM" sequence="16" value="17"/>
+                <element inactive_on_update="false" label="Reprovado por Prazo Expirado" sequence="17" value="18"/>
+                <element inactive_on_update="false" label="Novo Cadastro" sequence="18" value="0"/>
+            </choice>
+        </element>
+    </element>
+</database>

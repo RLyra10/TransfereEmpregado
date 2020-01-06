@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="afda00fedb21001021d658b3ca961989" sys_domain="global" table="x_407528_transfere_sistema_de_transfer_ncia_de_empregados" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-12-09 14:23:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>67da40fedb21001021d658b3ca961978</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_407528_transfere_sistema_de_transfer_ncia_de_empregados" name="x_407528_transfere_sistema_de_transfer_ncia_de_empregados" sys_domain="global" view="Default view">afda00fedb21001021d658b3ca961989</sys_ui_form>
+            <sys_ui_section caption="DADOS DO USUÁRIO / GERENTES" display_value="DADOS DO USUÁRIO / GERENTES" name="x_407528_transfere_sistema_de_transfer_ncia_de_empregados" sys_domain="global" view="Default view">7573c8badb21001021d658b3ca961931</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-12-09 14:23:25</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-12-09 14:23:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>63da40fedb21001021d658b3ca961979</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_407528_transfere_sistema_de_transfer_ncia_de_empregados" name="x_407528_transfere_sistema_de_transfer_ncia_de_empregados" sys_domain="global" view="Default view">afda00fedb21001021d658b3ca961989</sys_ui_form>
+            <sys_ui_section caption="Motivos" display_value="Motivos" name="x_407528_transfere_sistema_de_transfer_ncia_de_empregados" sys_domain="global" view="Default view">63da00fedb21001021d658b3ca961989</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-12-09 17:30:51</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-12-09 18:38:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3325cdb2dbe1001021d658b3ca961932</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_407528_transfere_sistema_de_transfer_ncia_de_empregados" name="x_407528_transfere_sistema_de_transfer_ncia_de_empregados" sys_domain="global" view="Default view">afda00fedb21001021d658b3ca961989</sys_ui_form>
+            <sys_ui_section caption="DADOS TRANSFERÊNCIA" display_value="DADOS TRANSFERÊNCIA" name="x_407528_transfere_sistema_de_transfer_ncia_de_empregados" sys_domain="global" view="Default view">2325c9b2dbe1001021d658b3ca9619d5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-12-09 18:38:12</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-12-09 19:16:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>adfdc93adbe1001021d658b3ca96196b</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_407528_transfere_sistema_de_transfer_ncia_de_empregados" name="x_407528_transfere_sistema_de_transfer_ncia_de_empregados" sys_domain="global" view="Default view">afda00fedb21001021d658b3ca961989</sys_ui_form>
+            <sys_ui_section caption="DADOS DE ORIGEM" display_value="DADOS DE ORIGEM" name="x_407528_transfere_sistema_de_transfer_ncia_de_empregados" sys_domain="global" view="Default view">e9fdc93adbe1001021d658b3ca961968</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-12-09 19:16:33</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-12-09 19:29:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e1e019badbe1001021d658b3ca961990</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_407528_transfere_sistema_de_transfer_ncia_de_empregados" name="x_407528_transfere_sistema_de_transfer_ncia_de_empregados" sys_domain="global" view="Default view">afda00fedb21001021d658b3ca961989</sys_ui_form>
+            <sys_ui_section caption="DADOS DE DESTINO" display_value="DADOS DE DESTINO" name="x_407528_transfere_sistema_de_transfer_ncia_de_empregados" sys_domain="global" view="Default view">a9e0d5badbe1001021d658b3ca96196d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-12-09 19:29:23</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-12-09 19:29:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e9e019badbe1001021d658b3ca961995</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_407528_transfere_sistema_de_transfer_ncia_de_empregados" name="x_407528_transfere_sistema_de_transfer_ncia_de_empregados" sys_domain="global" view="Default view">afda00fedb21001021d658b3ca961989</sys_ui_form>
+            <sys_ui_section caption="LOCAL DE TRABALHO" display_value="LOCAL DE TRABALHO" name="x_407528_transfere_sistema_de_transfer_ncia_de_empregados" sys_domain="global" view="Default view">a1e0d5badbe1001021d658b3ca96196e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-12-09 19:29:23</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-12-09 19:29:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e1e019badbe1001021d658b3ca9619a7</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_407528_transfere_sistema_de_transfer_ncia_de_empregados" name="x_407528_transfere_sistema_de_transfer_ncia_de_empregados" sys_domain="global" view="Default view">afda00fedb21001021d658b3ca961989</sys_ui_form>
+            <sys_ui_section caption="HISTÓRICO" display_value="HISTÓRICO" name="x_407528_transfere_sistema_de_transfer_ncia_de_empregados" sys_domain="global" view="Default view">a9e0d5badbe1001021d658b3ca96196e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-12-09 19:29:23</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-12-09 17:27:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c2e47c3adba1001021d658b3ca961998</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_407528_transfere_sistema_de_transfer_ncia_de_empregados" name="x_407528_transfere_sistema_de_transfer_ncia_de_empregados" sys_domain="global" view="Default view">afda00fedb21001021d658b3ca961989</sys_ui_form>
+            <sys_ui_section caption="Campos Ocultos" display_value="Campos Ocultos" name="x_407528_transfere_sistema_de_transfer_ncia_de_empregados" sys_domain="global" view="Default view">02e47c3adba1001021d658b3ca961995</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-12-09 19:29:23</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_407528_transfere_sistema_de_transfer_ncia_de_empregados</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-12-09 14:23:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>afda00fedb21001021d658b3ca961989</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_407528_transfere_sistema_de_transfer_ncia_de_empregados</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Transferencia de Empregados" source="x_407528_transfere">083200b6db21001021d658b3ca9619ae</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Transferencia de Empregados">083200b6db21001021d658b3ca9619ae</sys_scope>
+            <sys_update_name>sys_ui_form_sections_afda00fedb21001021d658b3ca961989</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-12-09 14:23:25</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

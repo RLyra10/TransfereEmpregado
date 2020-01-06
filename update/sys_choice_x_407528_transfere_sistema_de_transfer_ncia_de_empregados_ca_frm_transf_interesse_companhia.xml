@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="ca_frm_transf_interesse_companhia" table="x_407528_transfere_sistema_de_transfer_ncia_de_empregados" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>ca_frm_transf_interesse_companhia</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sim</label>
+            <language>en</language>
+            <name>x_407528_transfere_sistema_de_transfer_ncia_de_empregados</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-12-09 18:56:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2e59c976dbe1001021d658b3ca9619d7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-12-09 18:56:25</sys_updated_on>
+            <value>sim</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>ca_frm_transf_interesse_companhia</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Não</label>
+            <language>en</language>
+            <name>x_407528_transfere_sistema_de_transfer_ncia_de_empregados</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-12-09 18:56:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6e59c976dbe1001021d658b3ca9619d8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-12-09 18:56:25</sys_updated_on>
+            <value>não</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>ca_frm_transf_interesse_companhia</element>
+            <name>x_407528_transfere_sistema_de_transfer_ncia_de_empregados</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-12-09 18:56:25</sys_created_on>
+            <sys_id>6659c976dbe1001021d658b3ca9619d8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>ca_frm_transf_interesse_companhia</sys_name>
+            <sys_package display_value="Transferencia de Empregados" source="x_407528_transfere">083200b6db21001021d658b3ca9619ae</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Transferencia de Empregados">083200b6db21001021d658b3ca9619ae</sys_scope>
+            <sys_update_name>sys_choice_x_407528_transfere_sistema_de_transfer_ncia_de_empregados_ca_frm_transf_interesse_companhia</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-12-09 18:56:25</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

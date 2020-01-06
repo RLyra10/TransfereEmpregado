@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Tabela de Siglas dos Estados" max_length="40" name="x_407528_transfere_tabela_de_siglas_dos_estados" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="3" default="não" label="Excluir Documento?" max_length="40" name="ca_excluirdoc" read_only="true" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Não" sequence="0" value="não"/>
+                <element inactive_on_update="false" label="Sim" sequence="1" value="sim"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Sigla do Estado" mandatory="true" max_length="2" name="ca_tabela_siglas_siglas" type="string"/>
+    </element>
+</database>

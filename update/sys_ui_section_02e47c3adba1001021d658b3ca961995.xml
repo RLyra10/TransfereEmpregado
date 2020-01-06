@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Campos Ocultos" section_id="02e47c3adba1001021d658b3ca961995" sys_domain="global" table="x_407528_transfere_sistema_de_transfer_ncia_de_empregados" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ca_frm_transf_flag_motivos</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-12-09 19:16:35</sys_created_on>
+            <sys_id>31fdc93adbe1001021d658b3ca9619ed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Campos Ocultos" display_value="Campos Ocultos" name="x_407528_transfere_sistema_de_transfer_ncia_de_empregados" sys_domain="global" view="Default view">02e47c3adba1001021d658b3ca961995</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-12-09 19:16:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-12-09 19:16:35</sys_created_on>
+            <sys_id>b1fdc93adbe1001021d658b3ca9619ed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Campos Ocultos" display_value="Campos Ocultos" name="x_407528_transfere_sistema_de_transfer_ncia_de_empregados" sys_domain="global" view="Default view">02e47c3adba1001021d658b3ca961995</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-12-09 19:16:35</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ca_frm_transf_dispensado</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-12-09 19:16:35</sys_created_on>
+            <sys_id>35fdc93adbe1001021d658b3ca9619ed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Campos Ocultos" display_value="Campos Ocultos" name="x_407528_transfere_sistema_de_transfer_ncia_de_empregados" sys_domain="global" view="Default view">02e47c3adba1001021d658b3ca961995</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-12-09 19:16:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Campos Ocultos</caption>
+            <header>false</header>
+            <name>x_407528_transfere_sistema_de_transfer_ncia_de_empregados</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-12-09 17:27:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>02e47c3adba1001021d658b3ca961995</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Campos Ocultos</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Transferencia de Empregados" source="x_407528_transfere">083200b6db21001021d658b3ca9619ae</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Transferencia de Empregados">083200b6db21001021d658b3ca9619ae</sys_scope>
+            <sys_update_name>sys_ui_section_02e47c3adba1001021d658b3ca961995</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-12-09 17:27:06</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

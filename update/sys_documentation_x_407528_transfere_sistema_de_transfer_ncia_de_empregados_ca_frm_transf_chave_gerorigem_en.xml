@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="ca_frm_transf_chave_gerorigem" label="Chave gerente de origem:" language="en" table="x_407528_transfere_sistema_de_transfer_ncia_de_empregados">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>ca_frm_transf_chave_gerorigem</element>
+            <help/>
+            <hint/>
+            <label>Chave gerente de origem:</label>
+            <language>en</language>
+            <name>x_407528_transfere_sistema_de_transfer_ncia_de_empregados</name>
+            <plural>Chave gerente de origem:s</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-12-09 17:57:16</sys_created_on>
+            <sys_id>c8db707edba1001021d658b3ca9619fe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Chave gerente de origem:</sys_name>
+            <sys_package display_value="Transferencia de Empregados" source="x_407528_transfere">083200b6db21001021d658b3ca9619ae</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Transferencia de Empregados">083200b6db21001021d658b3ca9619ae</sys_scope>
+            <sys_update_name>sys_documentation_x_407528_transfere_sistema_de_transfer_ncia_de_empregados_ca_frm_transf_chave_gerorigem_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-12-09 17:57:16</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
